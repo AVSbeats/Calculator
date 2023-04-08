@@ -6,10 +6,10 @@ public class Calculator {
 
         System.out.println(" "); // Blank
         System.out.println("Welcome to Daddy's Calculator!!!");
-        System.out.println("Enter the following number like to get answer");
-        System.out.println("(Number Operator Number) = Answer");
+        System.out.println("Enter the following number in one like this example:");
+        System.out.println("1 + 1 = Answer");
         System.out.println(" "); // Blank
-        System.out.println("Enter a number: ");
+        System.out.print("Enter a number: ");
 
         Scanner input = new Scanner(System.in);
         double number1 = input.nextDouble();
